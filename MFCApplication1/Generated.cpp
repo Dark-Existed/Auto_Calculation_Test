@@ -51,8 +51,8 @@ string int_str(int number)
 
 string float_str(float number)
 {
-	char str[10];
-	_itoa_s(number, str, 10);
+	char str[15];
+	sprintf_s(str,"%f",number);
 	string f_s = str;
 	return f_s;
 }
