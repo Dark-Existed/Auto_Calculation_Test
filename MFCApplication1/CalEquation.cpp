@@ -80,6 +80,8 @@ string InfixToPostfix(string infix)
 	return postfix;
 }
 
+
+
 // 计算后缀表达式
 float posfixCompute(string s)
 {
@@ -134,6 +136,8 @@ float posfixCompute(string s)
 	}
 	return tempResult.top();
 }
+
+
 
 // 表达式计算
 float calculateResult(string s)

@@ -253,7 +253,9 @@ void CMFCApplication1Dlg::OnBnClickedButton2()
 		temp = temp + right + ti + "  ´ð´í" + wrong + ti;
 		finalResult = temp.c_str();
 		finalResult;
-		
+
+		GetDlgItem(IDC_BUTTON2)->EnableWindow(false);
+
 		UpdateData(false);
 	}
 }
